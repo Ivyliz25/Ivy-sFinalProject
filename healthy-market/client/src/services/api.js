@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const api = axios.create({
-  baseURL: import.meta.env.VITE_API_URI || "http://localhost:5000/api",
+  baseURL: import.meta.env.VITE_API_URI || 'https://ivy-sfinalproject.onrender.com/api',
   headers: {
     "Content-Type": "application/json",
   },
